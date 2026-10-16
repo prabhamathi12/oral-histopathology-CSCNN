@@ -5,11 +5,5 @@ authors:
   - family-names: "M"
     given-names: "Prabhakaran"
     affiliation: "Vellore Institute of Technology, Vellore, India"
-  - family-names: "Chidambaranathan"
-    given-names: "Malathy"
-  - family-names: "M"
-    given-names: "Gayathri"
-  - family-names: "GB"
-    given-names: "Protyusha"
 license: MIT
 repository-code: "https://github.com/YOUR-USERNAME/oral-histopathology-cscnn"
