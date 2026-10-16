@@ -44,7 +44,7 @@ ftmp4cvtmb-1/First Set/, Second Set/
 **Local machine** (Python 3.10+, CUDA GPU recommended):
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/oral-histopathology-cscnn.git
+git clone https://github.com/prabhamathi12/oral-histopathology-cscnn.git
 cd oral-histopathology-cscnn
 pip install -r requirements.txt
 python cscnn_pipeline.py
