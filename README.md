@@ -2,7 +2,7 @@
 
 Code, results and figures for the manuscript
 
-> Prabhakaran M, Chidambaranathan M, Gayathri M, Protyusha GB. *Untangling the stains: decorrelation contrast stretching and a lightweight CNN for oral histopathology.* Submitted to *Scientific Reports*.
+> Prabhakaran M and coauthors *Untangling the stains: decorrelation contrast stretching and a lightweight CNN for oral histopathology.* Submitted to *Scientific Reports*.
 
 `cscnn_pipeline.py` reproduces every result in the paper:
 
