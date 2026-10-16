@@ -1,0 +1,79 @@
+{
+  "accuracy": 0.7241379310344828,
+  "accuracy_ci95": [
+    0.641865721355158,
+    0.7958103516202107
+  ],
+  "balanced_accuracy": 0.6681034482758621,
+  "balanced_accuracy_ci95": [
+    0.6454918032786885,
+    0.9024538063562453
+  ],
+  "macro_f1": 0.4946039125845069,
+  "macro_f1_ci95": [
+    0.41558194748477323,
+    0.5665034643665158
+  ],
+  "macro_auc": 0.9346088272567621,
+  "sensitivity_TONGUE INFLAMMATORY": 1.0,
+  "specificity_TONGUE INFLAMMATORY": 0.873015873015873,
+  "sensitivity_TONGUE MILD DYSPLASIA": 0.0,
+  "specificity_TONGUE MILD DYSPLASIA": 0.958041958041958,
+  "sensitivity_TONGUE MODERATELY DIFFERENTIATED-SCC": 1.0,
+  "specificity_TONGUE MODERATELY DIFFERENTIATED-SCC": 0.8686131386861314,
+  "sensitivity_TONGUE-NO EVIDENCE OF MALIGNANCY": 0.6724137931034483,
+  "specificity_TONGUE-NO EVIDENCE OF MALIGNANCY": 1.0,
+  "confusion_matrix": [
+    [
+      19,
+      0,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      0,
+      8,
+      0
+    ],
+    [
+      15,
+      6,
+      17,
+      78
+    ]
+  ],
+  "report": "                                      precision    recall  f1-score   support\n\n                 TONGUE INFLAMMATORY      0.543     1.000     0.704        19\n               TONGUE MILD DYSPLASIA      0.000     0.000     0.000         2\nTONGUE MODERATELY DIFFERENTIATED-SCC      0.308     1.000     0.471         8\n    TONGUE-NO EVIDENCE OF MALIGNANCY      1.000     0.672     0.804       116\n\n                            accuracy                          0.724       145\n                           macro avg      0.463     0.668     0.495       145\n                        weighted avg      0.888     0.724     0.761       145\n",
+  "model": "cscnn",
+  "fold": "fold3",
+  "seed": 1,
+  "classes": [
+    "TONGUE INFLAMMATORY",
+    "TONGUE MILD DYSPLASIA",
+    "TONGUE MODERATELY DIFFERENTIATED-SCC",
+    "TONGUE-NO EVIDENCE OF MALIGNANCY"
+  ],
+  "params": 70020,
+  "ms_per_image": 18.579483032226562,
+  "train_time_s": 386.54824686050415,
+  "epochs_run": 41,
+  "best_epoch": 26,
+  "config": {
+    "img_size": 224,
+    "batch": 16,
+    "epochs": 100,
+    "patience": 15,
+    "lr": null,
+    "blocks": 5,
+    "stretch": true,
+    "batchnorm": false,
+    "dropout": 0.3,
+    "stretch_baselines": false
+  }
+}

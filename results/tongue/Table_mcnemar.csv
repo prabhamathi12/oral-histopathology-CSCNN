@@ -1,0 +1,51 @@
+comparison,run,cscnn_right_other_wrong,cscnn_wrong_other_right,p_value,significant_0.05_bonferroni
+CSCNN vs ConvNeXt-Tiny,seed1_fold0,2,15,0.002349853515625,True
+CSCNN vs CSCNN 4blk_do0.3,seed1_fold0,34,6,8.364584573428147e-06,True
+CSCNN vs CSCNN 4blk_do0.3,seed1_fold1,19,5,0.006610751152038574,False
+CSCNN vs CSCNN 4blk_do0.3,seed1_fold2,8,3,0.2265625,False
+CSCNN vs CSCNN 4blk_do0.3,seed1_fold3,12,12,1.0,False
+CSCNN vs CSCNN 4blk_do0.3,seed1_fold4,11,13,0.8388197422027588,False
+CSCNN vs CSCNN 5blk_nobn_do0.3,seed1_fold0,14,3,0.012725830078125,False
+CSCNN vs CSCNN 5blk_nobn_do0.3,seed1_fold1,6,7,1.0,False
+CSCNN vs CSCNN 5blk_nobn_do0.3,seed1_fold2,9,1,0.021484375,False
+CSCNN vs CSCNN 5blk_nobn_do0.3,seed1_fold3,23,5,0.0009122341871261597,True
+CSCNN vs CSCNN 5blk_nobn_do0.3,seed1_fold4,3,12,0.03515625,False
+CSCNN vs CSCNN 5blk_nostretch_do0.3,seed1_fold0,7,8,1.0,False
+CSCNN vs CSCNN 5blk_nostretch_do0.3,seed1_fold1,3,8,0.2265625,False
+CSCNN vs CSCNN 5blk_nostretch_do0.3,seed1_fold2,6,3,0.5078125,False
+CSCNN vs CSCNN 5blk_nostretch_do0.3,seed1_fold3,8,12,0.5034446716308594,False
+CSCNN vs CSCNN 5blk_nostretch_do0.3,seed1_fold4,10,11,1.0,False
+CSCNN vs DenseNet121,seed1_fold0,1,14,0.0009765625,True
+CSCNN vs DenseNet169,seed1_fold0,2,15,0.002349853515625,True
+CSCNN vs EfficientNetB0,seed1_fold0,1,11,0.00634765625,False
+CSCNN vs EfficientNetV2-B0,seed1_fold0,2,14,0.004180908203125,False
+CSCNN vs InceptionResNetV2,seed1_fold0,3,12,0.03515625,False
+CSCNN vs InceptionV3,seed1_fold0,4,11,0.11846923828124999,False
+CSCNN vs InceptionV3,seed1_fold1,5,8,0.5810546875,False
+CSCNN vs InceptionV3,seed1_fold2,3,4,1.0,False
+CSCNN vs InceptionV3,seed1_fold3,2,18,0.0004024505615234375,True
+CSCNN vs InceptionV3,seed1_fold4,5,17,0.01690053939819336,False
+CSCNN vs MobileNetV2,seed1_fold0,17,8,0.10775214433670044,False
+CSCNN vs MobileNetV3-Large,seed1_fold0,7,13,0.26317596435546875,False
+CSCNN vs MobileNetV3-Small,seed1_fold0,11,12,1.0,False
+CSCNN vs ResNet101,seed1_fold0,2,13,0.00738525390625,False
+CSCNN vs ResNet50,seed1_fold0,1,13,0.0018310546875,True
+CSCNN vs ResNet50,seed1_fold1,1,7,0.0703125,False
+CSCNN vs ResNet50,seed1_fold2,0,4,0.125,False
+CSCNN vs ResNet50,seed1_fold3,1,21,1.0967254638671875e-05,True
+CSCNN vs ResNet50,seed1_fold4,5,17,0.01690053939819336,False
+CSCNN vs ResNet50V2,seed1_fold0,7,10,0.629058837890625,False
+CSCNN vs VGG16,seed1_fold0,1,12,0.00341796875,False
+CSCNN vs VGG16,seed1_fold1,8,6,0.79052734375,False
+CSCNN vs VGG16,seed1_fold2,0,4,0.125,False
+CSCNN vs VGG16,seed1_fold3,0,14,0.0001220703125,True
+CSCNN vs VGG16,seed1_fold4,17,17,1.0,False
+CSCNN vs VGG19,seed1_fold0,3,13,0.021270751953125,False
+CSCNN vs VGG19,seed1_fold1,7,5,0.7744140625,False
+CSCNN vs VGG19,seed1_fold2,2,4,0.6875,False
+CSCNN vs VGG19,seed1_fold3,24,15,0.19959086691960698,False
+CSCNN vs VGG19,seed1_fold4,13,11,0.8388197422027588,False
+CSCNN vs Xception,seed1_fold0,1,10,0.01171875,False
+CSCNN vs Xception,seed1_fold1,2,9,0.0654296875,False
+CSCNN vs Xception,seed1_fold2,2,7,0.1796875,False
+CSCNN vs Xception,seed1_fold3,2,19,0.00022125244140625,True

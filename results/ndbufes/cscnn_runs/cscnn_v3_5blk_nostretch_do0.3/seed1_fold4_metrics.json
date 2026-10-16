@@ -1,0 +1,67 @@
+{
+  "accuracy": 0.43636363636363634,
+  "accuracy_ci95": [
+    0.21273527004909984,
+    0.6750741525423729
+  ],
+  "balanced_accuracy": 0.4503968253968254,
+  "balanced_accuracy_ci95": [
+    0.3021428571428571,
+    0.5384615384615384
+  ],
+  "macro_f1": 0.40418679549114334,
+  "macro_f1_ci95": [
+    0.2285660173160173,
+    0.5030726843039902
+  ],
+  "macro_auc": 0.6791055761643997,
+  "sensitivity_Leukoplakia with dysplasia": 0.47619047619047616,
+  "specificity_Leukoplakia with dysplasia": 0.5588235294117647,
+  "sensitivity_Leukoplakia without dysplasia": 0.0,
+  "specificity_Leukoplakia without dysplasia": 0.7297297297297297,
+  "sensitivity_OSCC": 0.875,
+  "specificity_OSCC": 0.8461538461538461,
+  "confusion_matrix": [
+    [
+      10,
+      8,
+      3
+    ],
+    [
+      15,
+      0,
+      3
+    ],
+    [
+      0,
+      2,
+      14
+    ]
+  ],
+  "report": "                               precision    recall  f1-score   support\n\n   Leukoplakia with dysplasia      0.400     0.476     0.435        21\nLeukoplakia without dysplasia      0.000     0.000     0.000        18\n                         OSCC      0.700     0.875     0.778        16\n\n                     accuracy                          0.436        55\n                    macro avg      0.367     0.450     0.404        55\n                 weighted avg      0.356     0.436     0.392        55\n",
+  "model": "cscnn",
+  "fold": "fold4",
+  "seed": 1,
+  "classes": [
+    "Leukoplakia with dysplasia",
+    "Leukoplakia without dysplasia",
+    "OSCC"
+  ],
+  "params": 70579,
+  "ms_per_image": 20.918642390858043,
+  "train_time_s": 151.48550367355347,
+  "epochs_run": 44,
+  "best_epoch": 29,
+  "config": {
+    "img_size": 224,
+    "batch": 16,
+    "epochs": 100,
+    "patience": 15,
+    "lr": null,
+    "blocks": 5,
+    "stretch": false,
+    "batchnorm": true,
+    "dropout": 0.3,
+    "stretch_baselines": false
+  }
+}

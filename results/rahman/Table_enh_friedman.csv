@@ -1,0 +1,8 @@
+metric,n_images,friedman_chi2,p_value
+RMS contrast,1196,6148.367773530816,0.0
+Entropy (bits),1196,5526.3124701385605,0.0
+Average gradient (edge strength),1196,5594.357859531774,0.0
+Colourfulness,1196,4161.06199235547,0.0
+Mean inter-channel |r| (lower = more decorrelated),1196,4440.480888676539,0.0
+SSIM to original (structure preservation),1196,4974.980052556137,0.0
+BRISQUE (lower = better perceptual quality),1196,2603.0561395126606,0.0

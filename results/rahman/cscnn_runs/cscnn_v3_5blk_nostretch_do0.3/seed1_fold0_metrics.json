@@ -1,0 +1,57 @@
+{
+  "accuracy": 0.8786610878661087,
+  "accuracy_ci95": [
+    0.8374830020920502,
+    0.9201680672268907
+  ],
+  "balanced_accuracy": 0.8477678571428571,
+  "balanced_accuracy_ci95": [
+    0.792847953646017,
+    0.9009811550153648
+  ],
+  "macro_f1": 0.8460496212878434,
+  "macro_f1_ci95": [
+    0.7932865427157855,
+    0.8945664259532309
+  ],
+  "macro_auc": 0.9209821428571427,
+  "sensitivity_Normal": 0.78125,
+  "specificity_Normal": 0.9142857142857143,
+  "sensitivity_OSCC": 0.9142857142857143,
+  "specificity_OSCC": 0.78125,
+  "confusion_matrix": [
+    [
+      50,
+      14
+    ],
+    [
+      15,
+      160
+    ]
+  ],
+  "report": "              precision    recall  f1-score   support\n\n      Normal      0.769     0.781     0.775        64\n        OSCC      0.920     0.914     0.917       175\n\n    accuracy                          0.879       239\n   macro avg      0.844     0.848     0.846       239\nweighted avg      0.879     0.879     0.879       239\n",
+  "model": "cscnn",
+  "fold": "fold0",
+  "seed": 1,
+  "classes": [
+    "Normal",
+    "OSCC"
+  ],
+  "params": 70514,
+  "ms_per_image": 9.203851971167401,
+  "train_time_s": 713.3568935394287,
+  "epochs_run": 47,
+  "best_epoch": 32,
+  "config": {
+    "img_size": 224,
+    "batch": 16,
+    "epochs": 100,
+    "patience": 15,
+    "lr": null,
+    "blocks": 5,
+    "stretch": false,
+    "batchnorm": true,
+    "dropout": 0.3,
+    "stretch_baselines": false
+  }
+}

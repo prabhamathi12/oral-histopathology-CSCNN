@@ -1,0 +1,81 @@
+model,class,sensitivity,specificity
+ConvNeXt-Tiny,Chronic inflammatory,1.000 ± 0.000,0.992 ± 0.000
+ConvNeXt-Tiny,Mild epithelial dysplasia,0.800 ± 0.000,1.000 ± 0.000
+ConvNeXt-Tiny,Moderately diff. SCC,1.000 ± 0.000,0.993 ± 0.000
+ConvNeXt-Tiny,No evidence of malignancy,0.991 ± 0.000,1.000 ± 0.000
+CSCNN 4blk_do0.3,Chronic inflammatory,0.897 ± 0.077,0.885 ± 0.100
+CSCNN 4blk_do0.3,Mild epithelial dysplasia,0.810 ± 0.207,0.965 ± 0.041
+CSCNN 4blk_do0.3,Moderately diff. SCC,0.725 ± 0.271,0.989 ± 0.013
+CSCNN 4blk_do0.3,No evidence of malignancy,0.833 ± 0.106,0.900 ± 0.068
+CSCNN (proposed),Chronic inflammatory,0.890 ± 0.117,0.957 ± 0.047
+CSCNN (proposed),Mild epithelial dysplasia,0.377 ± 0.298,0.978 ± 0.018
+CSCNN (proposed),Moderately diff. SCC,0.925 ± 0.112,0.971 ± 0.026
+CSCNN (proposed),No evidence of malignancy,0.906 ± 0.066,0.918 ± 0.094
+CSCNN 5blk_nobn_do0.3,Chronic inflammatory,0.931 ± 0.050,0.941 ± 0.046
+CSCNN 5blk_nobn_do0.3,Mild epithelial dysplasia,0.120 ± 0.268,0.973 ± 0.034
+CSCNN 5blk_nobn_do0.3,Moderately diff. SCC,0.950 ± 0.068,0.953 ± 0.048
+CSCNN 5blk_nobn_do0.3,No evidence of malignancy,0.859 ± 0.119,0.921 ± 0.059
+CSCNN 5blk_nostretch_do0.3,Chronic inflammatory,0.917 ± 0.076,0.959 ± 0.034
+CSCNN 5blk_nostretch_do0.3,Mild epithelial dysplasia,0.783 ± 0.331,0.973 ± 0.027
+CSCNN 5blk_nostretch_do0.3,Moderately diff. SCC,0.929 ± 0.104,0.991 ± 0.010
+CSCNN 5blk_nostretch_do0.3,No evidence of malignancy,0.913 ± 0.063,0.915 ± 0.086
+DenseNet121,Chronic inflammatory,1.000 ± 0.000,1.000 ± 0.000
+DenseNet121,Mild epithelial dysplasia,0.600 ± 0.000,1.000 ± 0.000
+DenseNet121,Moderately diff. SCC,1.000 ± 0.000,0.985 ± 0.000
+DenseNet121,No evidence of malignancy,1.000 ± 0.000,1.000 ± 0.000
+DenseNet169,Chronic inflammatory,1.000 ± 0.000,0.992 ± 0.000
+DenseNet169,Mild epithelial dysplasia,0.800 ± 0.000,1.000 ± 0.000
+DenseNet169,Moderately diff. SCC,1.000 ± 0.000,0.993 ± 0.000
+DenseNet169,No evidence of malignancy,0.991 ± 0.000,1.000 ± 0.000
+EfficientNetB0,Chronic inflammatory,0.929 ± 0.000,0.992 ± 0.000
+EfficientNetB0,Mild epithelial dysplasia,1.000 ± 0.000,0.978 ± 0.000
+EfficientNetB0,Moderately diff. SCC,1.000 ± 0.000,1.000 ± 0.000
+EfficientNetB0,No evidence of malignancy,0.965 ± 0.000,0.963 ± 0.000
+EfficientNetV2-B0,Chronic inflammatory,1.000 ± 0.000,0.984 ± 0.000
+EfficientNetV2-B0,Mild epithelial dysplasia,0.800 ± 0.000,1.000 ± 0.000
+EfficientNetV2-B0,Moderately diff. SCC,1.000 ± 0.000,1.000 ± 0.000
+EfficientNetV2-B0,No evidence of malignancy,0.983 ± 0.000,0.963 ± 0.000
+InceptionResNetV2,Chronic inflammatory,0.714 ± 0.000,1.000 ± 0.000
+InceptionResNetV2,Mild epithelial dysplasia,0.600 ± 0.000,1.000 ± 0.000
+InceptionResNetV2,Moderately diff. SCC,1.000 ± 0.000,0.985 ± 0.000
+InceptionResNetV2,No evidence of malignancy,1.000 ± 0.000,0.852 ± 0.000
+InceptionV3,Chronic inflammatory,0.909 ± 0.097,0.995 ± 0.004
+InceptionV3,Mild epithelial dysplasia,0.597 ± 0.275,0.997 ± 0.004
+InceptionV3,Moderately diff. SCC,0.910 ± 0.104,0.972 ± 0.018
+InceptionV3,No evidence of malignancy,0.973 ± 0.019,0.925 ± 0.078
+MobileNetV2,Chronic inflammatory,0.929 ± 0.000,0.859 ± 0.000
+MobileNetV2,Mild epithelial dysplasia,1.000 ± 0.000,0.978 ± 0.000
+MobileNetV2,Moderately diff. SCC,0.875 ± 0.000,0.985 ± 0.000
+MobileNetV2,No evidence of malignancy,0.809 ± 0.000,0.963 ± 0.000
+MobileNetV3-Large,Chronic inflammatory,0.929 ± 0.000,0.961 ± 0.000
+MobileNetV3-Large,Mild epithelial dysplasia,0.800 ± 0.000,0.985 ± 0.000
+MobileNetV3-Large,Moderately diff. SCC,0.875 ± 0.000,0.993 ± 0.000
+MobileNetV3-Large,No evidence of malignancy,0.948 ± 0.000,0.963 ± 0.000
+MobileNetV3-Small,Chronic inflammatory,1.000 ± 0.000,0.914 ± 0.000
+MobileNetV3-Small,Mild epithelial dysplasia,1.000 ± 0.000,0.978 ± 0.000
+MobileNetV3-Small,Moderately diff. SCC,0.625 ± 0.000,1.000 ± 0.000
+MobileNetV3-Small,No evidence of malignancy,0.904 ± 0.000,1.000 ± 0.000
+ResNet101,Chronic inflammatory,1.000 ± 0.000,1.000 ± 0.000
+ResNet101,Mild epithelial dysplasia,0.600 ± 0.000,1.000 ± 0.000
+ResNet101,Moderately diff. SCC,1.000 ± 0.000,0.978 ± 0.000
+ResNet101,No evidence of malignancy,0.983 ± 0.000,0.963 ± 0.000
+ResNet50,Chronic inflammatory,0.913 ± 0.085,0.992 ± 0.008
+ResNet50,Mild epithelial dysplasia,0.753 ± 0.233,0.997 ± 0.004
+ResNet50,Moderately diff. SCC,0.975 ± 0.056,0.994 ± 0.006
+ResNet50,No evidence of malignancy,0.989 ± 0.012,0.943 ± 0.048
+ResNet50V2,Chronic inflammatory,0.857 ± 0.000,0.969 ± 0.000
+ResNet50V2,Mild epithelial dysplasia,0.800 ± 0.000,0.978 ± 0.000
+ResNet50V2,Moderately diff. SCC,1.000 ± 0.000,0.985 ± 0.000
+ResNet50V2,No evidence of malignancy,0.922 ± 0.000,0.889 ± 0.000
+VGG16,Chronic inflammatory,0.844 ± 0.148,0.975 ± 0.024
+VGG16,Mild epithelial dysplasia,0.867 ± 0.298,0.986 ± 0.014
+VGG16,Moderately diff. SCC,0.825 ± 0.190,0.988 ± 0.020
+VGG16,No evidence of malignancy,0.961 ± 0.022,0.912 ± 0.084
+VGG19,Chronic inflammatory,0.678 ± 0.396,0.978 ± 0.014
+VGG19,Mild epithelial dysplasia,0.860 ± 0.219,0.976 ± 0.031
+VGG19,Moderately diff. SCC,0.750 ± 0.234,0.980 ± 0.016
+VGG19,No evidence of malignancy,0.944 ± 0.023,0.788 ± 0.260
+Xception,Chronic inflammatory,0.939 ± 0.059,0.988 ± 0.011
+Xception,Mild epithelial dysplasia,0.692 ± 0.217,0.995 ± 0.007
+Xception,Moderately diff. SCC,0.930 ± 0.081,0.993 ± 0.011
+Xception,No evidence of malignancy,0.982 ± 0.007,0.947 ± 0.047

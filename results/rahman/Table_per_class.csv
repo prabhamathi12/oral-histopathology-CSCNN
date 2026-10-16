@@ -1,0 +1,41 @@
+model,class,sensitivity,specificity
+ConvNeXt-Tiny,Normal oral epithelium,0.953 ± 0.000,0.846 ± 0.000
+ConvNeXt-Tiny,OSCC,0.846 ± 0.000,0.953 ± 0.000
+CSCNN 4blk_do0.3,Normal oral epithelium,0.719 ± 0.177,0.839 ± 0.081
+CSCNN 4blk_do0.3,OSCC,0.839 ± 0.081,0.719 ± 0.177
+CSCNN (proposed),Normal oral epithelium,0.774 ± 0.170,0.779 ± 0.125
+CSCNN (proposed),OSCC,0.779 ± 0.125,0.774 ± 0.170
+CSCNN 5blk_nobn_do0.3,Normal oral epithelium,0.574 ± 0.127,0.745 ± 0.075
+CSCNN 5blk_nobn_do0.3,OSCC,0.745 ± 0.075,0.574 ± 0.127
+CSCNN 5blk_nostretch_do0.3,Normal oral epithelium,0.709 ± 0.182,0.874 ± 0.036
+CSCNN 5blk_nostretch_do0.3,OSCC,0.874 ± 0.036,0.709 ± 0.182
+DenseNet121,Normal oral epithelium,0.891 ± 0.000,0.954 ± 0.000
+DenseNet121,OSCC,0.954 ± 0.000,0.891 ± 0.000
+DenseNet169,Normal oral epithelium,0.969 ± 0.000,0.971 ± 0.000
+DenseNet169,OSCC,0.971 ± 0.000,0.969 ± 0.000
+EfficientNetB0,Normal oral epithelium,0.922 ± 0.000,0.937 ± 0.000
+EfficientNetB0,OSCC,0.937 ± 0.000,0.922 ± 0.000
+EfficientNetV2-B0,Normal oral epithelium,0.938 ± 0.000,0.949 ± 0.000
+EfficientNetV2-B0,OSCC,0.949 ± 0.000,0.938 ± 0.000
+InceptionResNetV2,Normal oral epithelium,0.953 ± 0.000,0.829 ± 0.000
+InceptionResNetV2,OSCC,0.829 ± 0.000,0.953 ± 0.000
+InceptionV3,Normal oral epithelium,0.906 ± 0.000,0.920 ± 0.000
+InceptionV3,OSCC,0.920 ± 0.000,0.906 ± 0.000
+MobileNetV2,Normal oral epithelium,0.641 ± 0.000,0.789 ± 0.000
+MobileNetV2,OSCC,0.789 ± 0.000,0.641 ± 0.000
+MobileNetV3-Large,Normal oral epithelium,0.938 ± 0.000,0.914 ± 0.000
+MobileNetV3-Large,OSCC,0.914 ± 0.000,0.938 ± 0.000
+MobileNetV3-Small,Normal oral epithelium,0.875 ± 0.000,0.977 ± 0.000
+MobileNetV3-Small,OSCC,0.977 ± 0.000,0.875 ± 0.000
+ResNet101,Normal oral epithelium,0.891 ± 0.000,0.966 ± 0.000
+ResNet101,OSCC,0.966 ± 0.000,0.891 ± 0.000
+ResNet50,Normal oral epithelium,0.953 ± 0.000,0.960 ± 0.000
+ResNet50,OSCC,0.960 ± 0.000,0.953 ± 0.000
+ResNet50V2,Normal oral epithelium,0.922 ± 0.000,0.880 ± 0.000
+ResNet50V2,OSCC,0.880 ± 0.000,0.922 ± 0.000
+VGG16,Normal oral epithelium,0.609 ± 0.000,0.691 ± 0.000
+VGG16,OSCC,0.691 ± 0.000,0.609 ± 0.000
+VGG19,Normal oral epithelium,0.859 ± 0.000,0.891 ± 0.000
+VGG19,OSCC,0.891 ± 0.000,0.859 ± 0.000
+Xception,Normal oral epithelium,0.938 ± 0.000,0.977 ± 0.000
+Xception,OSCC,0.977 ± 0.000,0.938 ± 0.000

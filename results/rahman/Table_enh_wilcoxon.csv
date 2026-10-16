@@ -1,0 +1,43 @@
+metric,comparison,median_difference,p_value,decorrelation_better,p_holm,significant_0.05
+RMS contrast,Decorrelation stretch vs Original,-0.05299375139193625,5.487056482991229e-172,False,1.0974112965982459e-171,True
+RMS contrast,Decorrelation stretch vs Linear stretch,-0.11385914030605586,3.651731468053931e-197,False,2.191038880832359e-196,True
+RMS contrast,Decorrelation stretch vs Histogram eq.,-0.1570439124207367,3.651731468053931e-197,False,2.191038880832359e-196,True
+RMS contrast,Decorrelation stretch vs CLAHE,-0.11151722187471905,3.6609091832395846e-197,False,2.191038880832359e-196,True
+RMS contrast,Decorrelation stretch vs Reinhard,-0.047940848153716256,3.651731468053931e-197,False,2.191038880832359e-196,True
+RMS contrast,Decorrelation stretch vs Macenko,-0.015723287338485853,1.1039425310588708e-37,False,1.1039425310588708e-37,True
+Entropy (bits),Decorrelation stretch vs Original,-0.49303883716206,2.258846504498717e-165,False,6.776539513496151e-165,True
+Entropy (bits),Decorrelation stretch vs Linear stretch,-0.8557634241075571,3.651731468053931e-197,False,2.191038880832359e-196,True
+Entropy (bits),Decorrelation stretch vs Histogram eq.,-0.2591680239394538,1.3353803669868237e-90,False,2.6707607339736475e-90,True
+Entropy (bits),Decorrelation stretch vs CLAHE,-0.8673942458392245,3.6609091832395846e-197,False,2.191038880832359e-196,True
+Entropy (bits),Decorrelation stretch vs Reinhard,-0.4478575768134414,5.838465104697276e-197,False,2.3353860418789104e-196,True
+Entropy (bits),Decorrelation stretch vs Macenko,-0.2121105251461155,4.4660540632224323e-29,False,4.4660540632224323e-29,True
+Average gradient (edge strength),Decorrelation stretch vs Original,-0.03342423157529205,1.4072328370017533e-48,False,2.8144656740035066e-48,True
+Average gradient (edge strength),Decorrelation stretch vs Linear stretch,-0.1272326370770276,1.0239592723281435e-196,False,4.095837089312574e-196,True
+Average gradient (edge strength),Decorrelation stretch vs Histogram eq.,-0.23721069276439113,3.772855530142203e-197,False,2.263713318085322e-196,True
+Average gradient (edge strength),Decorrelation stretch vs CLAHE,-0.24807899456369092,3.87847422462078e-197,False,2.263713318085322e-196,True
+Average gradient (edge strength),Decorrelation stretch vs Reinhard,-0.031456888182541845,5.544506424353641e-110,False,1.6633519273060922e-109,True
+Average gradient (edge strength),Decorrelation stretch vs Macenko,-0.030668576703730008,2.8761896651121077e-38,False,2.8761896651121077e-38,True
+Colourfulness,Decorrelation stretch vs Original,62.36397782746207,3.651731468053931e-197,True,2.191038880832359e-196,True
+Colourfulness,Decorrelation stretch vs Linear stretch,71.58778411485909,3.651731468053931e-197,True,2.191038880832359e-196,True
+Colourfulness,Decorrelation stretch vs Histogram eq.,62.192926894718305,3.651731468053931e-197,True,2.191038880832359e-196,True
+Colourfulness,Decorrelation stretch vs CLAHE,62.32425786140016,3.651731468053931e-197,True,2.191038880832359e-196,True
+Colourfulness,Decorrelation stretch vs Reinhard,64.03771042421951,3.651731468053931e-197,True,2.191038880832359e-196,True
+Colourfulness,Decorrelation stretch vs Macenko,73.05565229699815,3.651731468053931e-197,True,2.191038880832359e-196,True
+Mean inter-channel |r| (lower = more decorrelated),Decorrelation stretch vs Original,-0.9282709106762281,3.651731468053931e-197,True,2.191038880832359e-196,True
+Mean inter-channel |r| (lower = more decorrelated),Decorrelation stretch vs Linear stretch,-0.9288549777164876,3.651731468053931e-197,True,2.191038880832359e-196,True
+Mean inter-channel |r| (lower = more decorrelated),Decorrelation stretch vs Histogram eq.,-0.9580577889541024,3.651731468053931e-197,True,2.191038880832359e-196,True
+Mean inter-channel |r| (lower = more decorrelated),Decorrelation stretch vs CLAHE,-0.9481104620626452,3.651731468053931e-197,True,2.191038880832359e-196,True
+Mean inter-channel |r| (lower = more decorrelated),Decorrelation stretch vs Reinhard,-0.9273069747320724,3.651731468053931e-197,True,2.191038880832359e-196,True
+Mean inter-channel |r| (lower = more decorrelated),Decorrelation stretch vs Macenko,-0.9211646858893933,3.651731468053931e-197,True,2.191038880832359e-196,True
+SSIM to original (structure preservation),Decorrelation stretch vs Original,-0.14449716099509968,3.651731468053931e-197,False,2.191038880832359e-196,True
+SSIM to original (structure preservation),Decorrelation stretch vs Linear stretch,-0.07773581725861894,5.013621683016773e-128,False,2.005448673206709e-127,True
+SSIM to original (structure preservation),Decorrelation stretch vs Histogram eq.,0.08062389429049438,8.29909675627663e-82,True,2.4897290268829888e-81,True
+SSIM to original (structure preservation),Decorrelation stretch vs CLAHE,0.02785566946368767,9.102350168438024e-25,True,1.820470033687605e-24,True
+SSIM to original (structure preservation),Decorrelation stretch vs Reinhard,-0.10407813807343003,3.563404272667395e-173,False,1.7817021363336972e-172,True
+SSIM to original (structure preservation),Decorrelation stretch vs Macenko,-0.009120842004062435,0.03712719556205893,False,0.03712719556205893,True
+BRISQUE (lower = better perceptual quality),Decorrelation stretch vs Original,0.06390380859375,0.2857081872407269,False,0.5714163744814538,False
+BRISQUE (lower = better perceptual quality),Decorrelation stretch vs Linear stretch,1.677734375,4.79669750063957e-12,False,1.439009250191871e-11,True
+BRISQUE (lower = better perceptual quality),Decorrelation stretch vs Histogram eq.,4.0540771484375,4.812352529886527e-69,False,2.4061762649432635e-68,True
+BRISQUE (lower = better perceptual quality),Decorrelation stretch vs CLAHE,2.72265625,5.726535342579443e-35,False,2.2906141370317772e-34,True
+BRISQUE (lower = better perceptual quality),Decorrelation stretch vs Reinhard,0.2919921875,0.7810711716934011,False,0.7810711716934011,False
+BRISQUE (lower = better perceptual quality),Decorrelation stretch vs Macenko,9.340087890625,1.8052138858105837e-156,False,1.0831283314863503e-155,True

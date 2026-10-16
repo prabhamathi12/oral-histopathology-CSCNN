@@ -1,0 +1,61 @@
+model,class,sensitivity,specificity
+ConvNeXt-Tiny,Leukoplakia with dysplasia,0.650 ± 0.000,0.767 ± 0.000
+ConvNeXt-Tiny,Leukoplakia without dysplasia,0.500 ± 0.000,0.850 ± 0.000
+ConvNeXt-Tiny,OSCC,0.850 ± 0.000,0.933 ± 0.000
+CSCNN 4blk_do0.3,Leukoplakia with dysplasia,0.420 ± 0.189,0.718 ± 0.177
+CSCNN 4blk_do0.3,Leukoplakia without dysplasia,0.424 ± 0.392,0.760 ± 0.278
+CSCNN 4blk_do0.3,OSCC,0.668 ± 0.269,0.778 ± 0.144
+CSCNN (proposed),Leukoplakia with dysplasia,0.408 ± 0.287,0.728 ± 0.133
+CSCNN (proposed),Leukoplakia without dysplasia,0.502 ± 0.361,0.693 ± 0.329
+CSCNN (proposed),OSCC,0.593 ± 0.243,0.831 ± 0.176
+CSCNN 5blk_nobn_do0.3,Leukoplakia with dysplasia,0.539 ± 0.501,0.502 ± 0.469
+CSCNN 5blk_nobn_do0.3,Leukoplakia without dysplasia,0.000 ± 0.000,1.000 ± 0.000
+CSCNN 5blk_nobn_do0.3,OSCC,0.520 ± 0.460,0.539 ± 0.497
+CSCNN 5blk_nostretch_do0.3,Leukoplakia with dysplasia,0.439 ± 0.173,0.641 ± 0.102
+CSCNN 5blk_nostretch_do0.3,Leukoplakia without dysplasia,0.216 ± 0.245,0.834 ± 0.142
+CSCNN 5blk_nostretch_do0.3,OSCC,0.695 ± 0.209,0.703 ± 0.226
+DenseNet121,Leukoplakia with dysplasia,0.800 ± 0.000,0.333 ± 0.000
+DenseNet121,Leukoplakia without dysplasia,0.000 ± 0.000,0.925 ± 0.000
+DenseNet121,OSCC,0.350 ± 0.000,0.867 ± 0.000
+DenseNet169,Leukoplakia with dysplasia,0.700 ± 0.000,0.633 ± 0.000
+DenseNet169,Leukoplakia without dysplasia,0.400 ± 0.000,0.850 ± 0.000
+DenseNet169,OSCC,0.750 ± 0.000,1.000 ± 0.000
+EfficientNetB0,Leukoplakia with dysplasia,0.600 ± 0.000,0.733 ± 0.000
+EfficientNetB0,Leukoplakia without dysplasia,0.300 ± 0.000,0.850 ± 0.000
+EfficientNetB0,OSCC,0.950 ± 0.000,0.933 ± 0.000
+EfficientNetV2-B0,Leukoplakia with dysplasia,0.500 ± 0.000,0.767 ± 0.000
+EfficientNetV2-B0,Leukoplakia without dysplasia,0.400 ± 0.000,0.875 ± 0.000
+EfficientNetV2-B0,OSCC,0.950 ± 0.000,0.833 ± 0.000
+InceptionResNetV2,Leukoplakia with dysplasia,0.500 ± 0.000,0.800 ± 0.000
+InceptionResNetV2,Leukoplakia without dysplasia,0.300 ± 0.000,0.800 ± 0.000
+InceptionResNetV2,OSCC,0.900 ± 0.000,0.833 ± 0.000
+InceptionV3,Leukoplakia with dysplasia,0.500 ± 0.000,0.833 ± 0.000
+InceptionV3,Leukoplakia without dysplasia,0.400 ± 0.000,0.750 ± 0.000
+InceptionV3,OSCC,0.950 ± 0.000,0.933 ± 0.000
+MobileNetV2,Leukoplakia with dysplasia,0.550 ± 0.000,0.633 ± 0.000
+MobileNetV2,Leukoplakia without dysplasia,0.100 ± 0.000,1.000 ± 0.000
+MobileNetV2,OSCC,0.800 ± 0.000,0.633 ± 0.000
+MobileNetV3-Large,Leukoplakia with dysplasia,0.750 ± 0.000,0.467 ± 0.000
+MobileNetV3-Large,Leukoplakia without dysplasia,0.300 ± 0.000,0.925 ± 0.000
+MobileNetV3-Large,OSCC,0.550 ± 0.000,0.933 ± 0.000
+MobileNetV3-Small,Leukoplakia with dysplasia,0.300 ± 0.000,0.733 ± 0.000
+MobileNetV3-Small,Leukoplakia without dysplasia,0.200 ± 0.000,0.775 ± 0.000
+MobileNetV3-Small,OSCC,0.750 ± 0.000,0.667 ± 0.000
+ResNet101,Leukoplakia with dysplasia,0.650 ± 0.000,0.400 ± 0.000
+ResNet101,Leukoplakia without dysplasia,0.400 ± 0.000,0.900 ± 0.000
+ResNet101,OSCC,0.350 ± 0.000,0.867 ± 0.000
+ResNet50,Leukoplakia with dysplasia,0.400 ± 0.000,0.867 ± 0.000
+ResNet50,Leukoplakia without dysplasia,0.300 ± 0.000,0.800 ± 0.000
+ResNet50,OSCC,1.000 ± 0.000,0.767 ± 0.000
+ResNet50V2,Leukoplakia with dysplasia,0.750 ± 0.000,0.733 ± 0.000
+ResNet50V2,Leukoplakia without dysplasia,0.400 ± 0.000,0.900 ± 0.000
+ResNet50V2,OSCC,0.850 ± 0.000,0.933 ± 0.000
+VGG16,Leukoplakia with dysplasia,0.250 ± 0.000,0.833 ± 0.000
+VGG16,Leukoplakia without dysplasia,0.300 ± 0.000,0.800 ± 0.000
+VGG16,OSCC,1.000 ± 0.000,0.700 ± 0.000
+VGG19,Leukoplakia with dysplasia,0.450 ± 0.000,0.800 ± 0.000
+VGG19,Leukoplakia without dysplasia,0.000 ± 0.000,1.000 ± 0.000
+VGG19,OSCC,0.950 ± 0.000,0.467 ± 0.000
+Xception,Leukoplakia with dysplasia,0.700 ± 0.000,0.800 ± 0.000
+Xception,Leukoplakia without dysplasia,0.400 ± 0.000,0.950 ± 0.000
+Xception,OSCC,0.950 ± 0.000,0.833 ± 0.000
